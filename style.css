@@ -1,3 +1,73 @@
+/* biodata */
+#main-biodata {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px;
+    padding: 0px 90px;
+    gap: 0px;
+}
+
+#profile {
+    width: 500px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+#grn {
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#profile img {
+    width: 200px;
+}
+
+#sosial-media ul {
+    display: flex;
+    gap: 35px;
+}
+
+#sosial-media img {
+    width: 40px;
+}
+
+#profile h1, #profile p {
+    text-align: center;
+}
+
+#biodata {
+    width: 40%;
+    background-color: lightskyblue;
+    padding: 45px;
+    border-radius: 20px;
+}
+
+#biodata table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#biodata th, #biodata td {
+    border-bottom: 1px solid blue;
+    padding: 10px 2px;
+    text-align: left;
+}
+
+#biodata td::before {
+    content: ":";
+    font-weight: bolder;
+}
+
 /* contact us*/
 #main-contact-us {
     display: flex;
@@ -5,15 +75,76 @@
     margin: 10px 0;
     gap: 0px;
     border-radius: 30px;
+    background-color: lightseagreen;
+    float: right;
 }
 
+
 #contact img {
-    width: 180px;
+    width: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     border-radius: 30px;
+
 }
 
-#
+h1 {
+    line-height: 10px;
+}
+
+#contact, #contact-form {
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+#contact-form {
+    background-color: lightblue;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+#gender {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#religion-form, #hobbies-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+button {
+    background-color: lightskyblue;
+    padding: 15px 50px;
+    border-radius: 15px;
+    transition: transform 0.4s;
+}
+
+button:hover {
+    transform: scale(1.0);
+}

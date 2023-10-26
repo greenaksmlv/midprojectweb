@@ -1,237 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- style -->
-     <link rel="stylesheet" href="style.css">
 
-     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-
-     <!-- Font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Contact Us</title>
-</head>
-<body>
-    <header>
-        <img src="logo_cimory.png" alt="logo cimory">
-        <div id="navbar-lang">
-            <div id="lang">
-                <div>
-                    <img src="share.png" alt="logo share">
-                </div>
-                <div>
-                    <a href="https://cimory.com/index.php?lang=en&">EN</a>
-                </div>                 
-            </div>
-            <div id="navbar">
-                <div>
-                    <a href="index.html">HOME</a>
-                </div>
-                <div>
-                    <a href="biodata.html">BIODATA</a>
-                </div>
-                <div>
-                    <a href="contact_us.html">CONTACT US</a>
-                </div>
-                <div>
-                    <a href="free.html">FREE CONTENT</a>
-                </div>
-            </div>
-        </div>
-    </header>
     <!-- Main Section -->
-    <main id="main-contact-us">
-        <div id="contact">
-            <h1>About Us</h1>
-            <img src="hub-dk.jpg" alt="hubungi deca akan membantu">
-            <p> 
-                Halo, nama saya Deca. Saya saat ini berkuliah tingkat 3 di Universitas Advent Indonesia. Saya memiliki minat yang kuat dalam pengembangan web. 
-                Selama kuliah, saya telah terlibat dalam berbagai kegiatan ekstrakurikuler yang menarik. Saya bersemangat untuk terus belajar dan berkembang di lingkungan universitas,
-                serta berharap dapat berkontribusi dalam berbagai cara selama masa studi saya di UNAI.
-            </p>
-        </div>
-        
-        <div id="contact-form">
-            <h1>Contact Us</h1>
-            <form>
-                <input type="text" id="fullname" name="fullname" placeholder="Your fullname...">
-
-                <input type="email" id="email" name="email" placeholder="Your email...">
-
-                <input type="text" id="username" name="username" placeholder="Username">
-
-                <input type="password" id="password" name="password" placeholder="Password">
-
-                <div id="gender">
-                    <input type="radio" name="gender" id="male" value="Male">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="female" value="Female">
-                    <label for="female">Female</label>
-                </div>
-                
-                <div id="religion-form">
-                    <label for="religion">Religion</label>
-                    <select name="religion" id="religion">
-                        <option value="Islam">Islam</option>
-                        <option value="Christian">Christian</option>
-                        <option value="Hindu">Hindu</option>
-                        <option value="Buddha">Buddha</option>
-                        <option value="Khonghucu">Khonghucu</option>
-                    </select>
-                </div>
-
-                <textarea name="address" id="address">Address</textarea>
-
-                <div id="hobbies-form">
-                    <p>Hobbies</p>
-                    <div id="hobbies">
-                        <input type="checkbox" id="drawing" name="drawing" value="Drawing">
-                        <label for="drawing">Drawing</label>
-                        <input type="checkbox" id="reading" name="reading" value="Reading">
-                        <label for="reading">Reading</label>
-                        <input type="checkbox" id="sport" name="sport" value="Sport">
-                        <label for="sport">Sport</label>
-                        <input type="checkbox" id="music" name="music" value="Music">
-                        <label for="music">Music</label>
-                        <input type="checkbox" id="writing" name="writing" value="Writing">
-                        <label for="writing">writing</label>
-                        <input type="checkbox" id="cooking" name="cooking" value="Cooking">
-                        <label for="cooking">Cooking</label>
-                        <input type="checkbox" id="singing" name="singing" value="Singing">
-                        <label for="singing">Singing</label>
-                        <input type="checkbox" id="traveling" name="traveling" value="Traveling">
-                        <label for="traveling">Traveling</label> 
-                        <input type="checkbox" id="hiking" name="hiking" value="Hiking">
-                        <label for="hiking">Hiking</label>
-                        <input type="checkbox" id="dancing" name="dancing" value="Dancing">
-                        <label for="dancing">Dancing</label>
-                        <input type="checkbox" id="other" name="other" value="Other">
-                        <label for="other">Other</label>
-                    </div>
-                </div>
-                <button type="submit">Save</button>
-            </form>
-        </div>
-    </main>
-    <!-- Footer -->
-    <footer>
-        <div id="konten-footer">
-            <div id="footer-logo">
-                <img src="logo_cimory.png" alt="logo cimory">
+        <main id="main-biodata">
+            <div id="profile">
+                <div id="dk">
+                    <img src="dk.jpg" alt="yang punya nama Deca kezia caren kurniawan">
+                </div>  
+                <div>
+                <h1>Deca Kezia Caren</h1>
+                <p>2281009 Teknik Informatika</p>
             </div>
-            <div id="konten">
-                <div id="home-keberlanjutan" >
-                    <a href="https://cimory.com/index.php">
-                        <h4>Home</h4>
-                    </a>
-                    <div>
-                        <h4>Keberlanjutan</h4>
-                        <ul>
-                            <li>
-                                <a href="https://cimory.com/sustainability.php#tab-1">Energi & Lingkungan</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/sustainability.php#tab-2">Ekonomi Lokal</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/sustainability.php#tab-3">Pengembangan Komunitas</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="perusahaan">
-                    <h4>Perusahaan</h4>
+                <div id="sosial-media">
                     <ul>
                         <li>
-                            <a href="https://cimory.com/vision-mission.php">Visi Misi</a>
+                            <a href="https://www.instagram.com/deca_caren">
+                                <img src="instagram.png" alt="logo instagram">
+                            </a>
                         </li>
                         <li>
-                            <a href="https://cimory.com/our-leadership.php">Kepemimpinan Kami</a>
+                            <a href="https://twitter.com/keyrendk_">
+                                <img src="twitter (2).png" alt="logo twitter">
+                            </a>
                         </li>
                         <li>
-                            <a href="https://cimory.com/our-history.php">Sejarah Perusahaan</a>
+                            <a href="https://id.pinterest.com/carenkurniawan/">
+                                <img src="pinterest.png" alt="logo pinterest">
+                            </a>
                         </li>
                         <li>
-                            <a href="https://cimory.com/corporate-governance.php">Tata Kelola Perusahaan</a>
-                        </li>
-                        <li>
-                            <a href="https://cimory.com/sub-company.php">Grup Perusahaan</a>
-                        </li>
-                        <li>
-                            <a href="https://cimory.com/development-strategy.php">Pengembangan Strategi</a>
-                        </li>
-                        <li>
-                            <a href="https://cimory.com/audit-comittee.php">Komite Audit</a>
+                            <a href="https://www.linkedin.com/in/deca-kezia-caren-kurniawan-a82552283/">
+                                <img src="linkedin.png" alt="logo linkedin">
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div id="produk-investor" >
-                    <div>
-                        <h4>Produk</h4>
-                        <ul>
-                            <li>
-                                <a href="https://cimory.com/our-product.php#tab-1">Produk Susu</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/our-product.php#tab-2">Makanan Konsumen</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>Investor</h4>
-                        <ul>
-                            <li>
-                                <a href="https://cimory.com/general-meeting.php">Rapat Umum Tahunan</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/financial-report.php">Laporan Keuangan</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/annual-reports.php">Laporan Tahunan</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/investor-contact.php">Kontak IR</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/investor-prospectus.php">Prospektus</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="pariwisata-media-kontak">
-                    <a href=""><h4>Pariwisata</h4></a>
-                    <div>
-                        <h4>Media</h4>
-                        <ul>
-                            <li>
-                                <a href="https://cimory.com/news.php">Berita</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/media.php">Media</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>Kontak</h4>
-                        <ul>
-                            <li>
-                                <a href="https://cimory.com/contact-us.php">Alamat</a>
-                            </li>
-                            <li>
-                                <a href="https://cimory.com/career.php">Karir</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-        </div>
-        <div id="copyright">
-            <p>&copy; 2021 PT Cisarua Mountain Dairy (Cimory) All rights reserved.</p>
-        </div>
-    </footer>
+            <div id="biodata">
+                <table>
+                    <tr>
+                        <th>Nama Lengkap </th>
+                        <td>Deca Kezia Caren Kurniawan</td>
+                    </tr>
+                    <tr>
+                        <th>Tempat & Tanggal Lahir </th>
+                        <td>Klaten, 10 Oktober 2003</td>
+                    </tr>
+                    <tr>
+                        <th>Agama </th>
+                        <td>Advent</td>
+                    </tr>
+                    <tr>
+                        <th>Jurusan </th>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                    <tr>
+                        <th>Hobi dan Minat </th>
+                        <td>Membaca Buku</td>
+                    </tr>
+                    <tr>
+                        <th>Nomor Telepon </th>
+                        <td>081354190459</td>
+                    </tr>
+                    <tr>
+                        <th>Email </th>
+                        <td>2281009@unai.edu
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Pengalaman Organisasi </th>
+                        <td>HIMA FTI, BEM, UBC </td>
+                    </tr>
+                    <tr>
+                        <th>Pengalaman Bekerja </th>
+                        <td>Asisten Dosen, Library, Jenitor Asrama
+                        </td>
+                    </tr>
+                </table>
+            </div>        
+        </main>    
 </body>
 </html>
