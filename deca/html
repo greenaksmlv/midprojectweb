@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- style -->
+     <link rel="stylesheet" href="style.css">
 
-    <!-- style -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- favicon -->
+     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.png">
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>Cimory</title> 
+     <!-- Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <img src="logo_cimory.png" alt="logo cimory">
         <div id="navbar-lang">
@@ -46,118 +43,80 @@
             </div>
         </div>
     </header>
-
     <!-- Main Section -->
-    <main>
-        <img id="cimoryimg" src="cimory.jpg" alt="foto produk cimory">
-        <div id="berita">
-            <div id="berita-header">
-                <h1>Berita</h1>
-                <a href="https://cimory.com/news.php">Lihat Semua</a>
-            </div>
-            <div id="konten-berita">
-                <div class="konten-berita-border">
-                    <a href="https://cimory.com/news-detail.php?news_id=13">
-                        <div class="konten-berita-img">
-                            <img src="news1.png" alt="berita cimory pertama">
-                        </div>
-                        <p>Cimory Mengumumkan Investasi Strategis dari General Atlantic untuk Mendukung Pertumbuhan Bisnis sebagai Produsen Susu dan Makanan Terkemuka di Indonesia <span>10 Jan 2023</span></p>
-                    </a>
-                </div>
-                <div class="konten-berita-border">
-                    <a href="https://cimory.com/news-detail.php?news_id=12">
-                        <div class="konten-berita-img">
-                            <img src="news2.png" alt="berita cimory ke dua">
-                        </div>
-                        <p>Cimory Catatkan Pertumbuhan Laba Bersih 346% Jadi Rp 790 Miliar pada tahun 2021 <span>25 Mar 2022</span></p>
-                    </a>
-                </div>
-                <div class="konten-berita-border">
-                    <a href="https://cimory.com/news-detail.php?news_id=4">
-                        <div class="konten-berita-img">
-                            <img src="piala.jpg" alt="bapak memegang piala">
-                        </div>
-                        <p>Bambang Sutantio, Chairman Cimory Group menerima Food Manufacturing Entrepreneur Award <span>09 Jan 2022</span></p>
-                    </a>
-                </div>
-                <div class="konten-berita-border">
-                    <a href="https://cimory.com/news-detail.php?news_id=11">
-                        <div class="konten-berita-img">
-                            <img src="rapatbpkbpk.jpg" alt="perkumpulan bapak bapak">
-                        </div>
-                        <p>Upaya Tingkatkan Kualitas Peternakan Sapi Perah di Indonesia, Cimory Beri Pelatihan Kepada 1000 Peternak Wanita <span>20 Dec 2021</span></p>
-                    </a>
-                </div>
-            </div>
+    <main id="main-contact-us">
+        <div id="contact">
+            <h1>About Us</h1>
+            <img src="hub-dk.jpg" alt="hubungi deca akan membantu">
+            <p> 
+                Halo, nama saya Deca. Saya saat ini berkuliah tingkat 3 di Universitas Advent Indonesia. Saya memiliki minat yang kuat dalam pengembangan web. 
+                Selama kuliah, saya telah terlibat dalam berbagai kegiatan ekstrakurikuler yang menarik. Saya bersemangat untuk terus belajar dan berkembang di lingkungan universitas,
+                serta berharap dapat berkontribusi dalam berbagai cara selama masa studi saya di UNAI.
+            </p>
         </div>
-        <div id="media">
-            <div id="media-header">
-                <h1>Media</h1>
-                <a href="https://cimory.com/media.php">Lihat Semua</a>
-            </div>
-            <div id="konten-media">
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media1.png" alt="gambar 1">
-                    <p>CIMORY Indonesia - Company Profile</p>
+        
+        <div id="contact-form">
+            <h1>Contact Us</h1>
+            <form>
+                <input type="text" id="fullname" name="fullname" placeholder="Your fullname...">
+
+                <input type="email" id="email" name="email" placeholder="Your email...">
+
+                <input type="text" id="username" name="username" placeholder="Username">
+
+                <input type="password" id="password" name="password" placeholder="Password">
+
+                <div id="gender">
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
                 </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media2.jpg" alt="gambar 2">
-                    <p>Baru, pembukaan Cimory dairyland Prigen!</p>
+                
+                <div id="religion-form">
+                    <label for="religion">Religion</label>
+                    <select name="religion" id="religion">
+                        <option value="Islam">Islam</option>
+                        <option value="Christian">Christian</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Khonghucu">Khonghucu</option>
+                    </select>
                 </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media3.jpg" alt="gambar 3">
-                    <p>Tiktok #Squeezeyuk Challenges @Anesya</p>
+
+                <textarea name="address" id="address">Address</textarea>
+
+                <div id="hobbies-form">
+                    <p>Hobbies</p>
+                    <div id="hobbies">
+                        <input type="checkbox" id="drawing" name="drawing" value="Drawing">
+                        <label for="drawing">Drawing</label>
+                        <input type="checkbox" id="reading" name="reading" value="Reading">
+                        <label for="reading">Reading</label>
+                        <input type="checkbox" id="sport" name="sport" value="Sport">
+                        <label for="sport">Sport</label>
+                        <input type="checkbox" id="music" name="music" value="Music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="writing" name="writing" value="Writing">
+                        <label for="writing">writing</label>
+                        <input type="checkbox" id="cooking" name="cooking" value="Cooking">
+                        <label for="cooking">Cooking</label>
+                        <input type="checkbox" id="singing" name="singing" value="Singing">
+                        <label for="singing">Singing</label>
+                        <input type="checkbox" id="traveling" name="traveling" value="Traveling">
+                        <label for="traveling">Traveling</label> 
+                        <input type="checkbox" id="hiking" name="hiking" value="Hiking">
+                        <label for="hiking">Hiking</label>
+                        <input type="checkbox" id="dancing" name="dancing" value="Dancing">
+                        <label for="dancing">Dancing</label>
+                        <input type="checkbox" id="other" name="other" value="Other">
+                        <label for="other">Other</label>
+                    </div>
                 </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media4.jpg" alt="gambar 4">
-                    <p>Tiktok #Cucokcucucimory @Baldybrobryzxz</p>
-                </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media5.jpg" alt="gambar 5">
-                    <p>Tiktok #Cobaincimoryceger Challenges @Clarakangbakso</p>
-                </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media6.jpg" alt="gambar 6">
-                    <p>Tiktok #Cobaincimoryceger Challenges @mieke</p>
-                </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media7.jpg" alt="gambar 7">
-                    <p>Tiktok #Cobaincimoryceger Challenges @Baldybrobryzxz</p>
-                </div>
-                <div>
-                    <img id="play-button" src="play-button.png">
-                    <img src="media8.jpg" alt="gambar 8">
-                    <p>Introduction Cimory UHT Milk Marie Biscuit!</p>
-                </div>
-            </div>
-        </div>
-        <div id="sustain">
-            <img src="sustain_development_bg_id.jpg" alt="gambar sapi sustain development">
-            <a id="lihat-detail" href="https://cimory.com/sustainability.php">Lihat Detail</a>
-        </div>
-        <div id="prodak-kami">
-            <div id="prodak-kami-header">
-                <h1>Produk Kami</h1>
-                <div>
-                    <a id="produksusu" href="https://cimory.com/#tab-0">Produk Susu</a>
-                    <a id="mknkonsumen" href="https://cimory.com/#tab-1">Makanan Konsumen</a>
-                </div>
-            </div>
-            <img src="bottombanner_dairy.jpg" alt="produk susu kami">
-            <div id="prosusu">
-                <h2>Produk Susu</h2>
-                <p>Cimory Milk dan yogurt terbuat dari susu segar premium, diproses dan dikemas secara higienis menggunakan teknologi modern. Ini memiliki banyak pilihan rasa, dan sangat bergizi untuk Anda!</p>
-            </div>
+                <button type="submit">Save</button>
+            </form>
         </div>
     </main>
-
     <!-- Footer -->
     <footer>
         <div id="konten-footer">
